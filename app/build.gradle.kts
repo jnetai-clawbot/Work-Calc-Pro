@@ -21,9 +21,9 @@ android {
     signingConfigs {
         create("release") {
             storeFile = file("release.keystore")
-            storePassword = "WorkCalc2026"
-            keyAlias = "release"
-            keyPassword = "WorkCalc2026"
+            storePassword = System.getenv("KEYSTORE_PASSWORD") ?: "WorkCalc2026"
+            keyAlias = System.getenv("KEY_ALIAS") ?: "release"
+            keyPassword = System.getenv("KEY_PASSWORD") ?: "WorkCalc2026"
         }
     }
 
