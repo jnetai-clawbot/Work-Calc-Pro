@@ -49,7 +49,7 @@
             android:id="@+id/btn_delete_shift"
             android:layout_width="32dp"
             android:layout_height="32dp"
-            android:src="@android:drawable/ic_menu_delete"
+            android:src="@drawable/ic_delete"
             android:contentDescription="@string/delete"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:tint="@color/md_theme_dark_error"

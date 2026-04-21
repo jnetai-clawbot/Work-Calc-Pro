@@ -19,7 +19,7 @@
             android:id="@+id/btn_prev_month"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@android:drawable/ic_media_previous"
+            android:src="@drawable/ic_chevron_left"
             android:contentDescription="Previous month"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:tint="@color/md_theme_dark_onSurface" />
@@ -38,7 +38,7 @@
             android:id="@+id/btn_next_month"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@android:drawable/ic_media_next"
+            android:src="@drawable/ic_chevron_right"
             android:contentDescription="Next month"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:tint="@color/md_theme_dark_onSurface" />
@@ -107,7 +107,7 @@
         android:layout_gravity="end|bottom"
         android:layout_margin="16dp"
         android:contentDescription="@string/add_shift"
-        android:src="@android:drawable/ic_input_add"
+        android:src="@drawable/ic_add"
         app:backgroundTint="@color/md_theme_dark_primary"
         app:tint="@color/md_theme_dark_onPrimary" />
 

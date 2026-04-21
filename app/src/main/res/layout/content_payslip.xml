@@ -54,7 +54,7 @@
                 android:id="@+id/btn_prev_period"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@android:drawable/ic_media_previous"
+                android:src="@drawable/ic_chevron_left"
                 android:contentDescription="Previous"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:tint="@color/md_theme_dark_onSurface" />
@@ -73,7 +73,7 @@
                 android:id="@+id/btn_next_period"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@android:drawable/ic_media_next"
+                android:src="@drawable/ic_chevron_right"
                 android:contentDescription="Next"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:tint="@color/md_theme_dark_onSurface" />
