@@ -81,7 +81,9 @@ dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
 
     // PDF generation
-    implementation("com.itextpdf:itext7-core:7.2.5")
+    implementation("com.itextpdf:kernel:7.2.5")
+    implementation("com.itextpdf:layout:7.2.5")
+    implementation("com.itextpdf:io:7.2.5")
 
     // HTTP client for update check
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
